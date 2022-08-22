@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F235A3F2-5C33-4E1A-962B-B9C3D0707D86}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>otopark_otomasyonu</RootNamespace>
+    <AssemblyName>otopark_otomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\otoparkotomasyonu\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa.Designer.cs">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AraçOtoparkKaydı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AraçOtoparkKaydı.Designer.cs">
+      <DependentUpon>AraçOtoparkKaydı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AraçOtoparkYerleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AraçOtoparkYerleri.Designer.cs">
+      <DependentUpon>AraçOtoparkYerleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AraçOtoparkÇıkış.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AraçOtoparkÇıkış.Designer.cs">
+      <DependentUpon>AraçOtoparkÇıkış.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMarka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMarka.Designer.cs">
+      <DependentUpon>frmMarka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMarkaSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMarkaSil.Designer.cs">
+      <DependentUpon>FrmMarkaSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSeri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeri.Designer.cs">
+      <DependentUpon>frmSeri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginEkranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginEkranı.Designer.cs">
+      <DependentUpon>LoginEkranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otoparkotomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>otoparkotomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AnaSayfa.resx">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AraçOtoparkKaydı.resx">
+      <DependentUpon>AraçOtoparkKaydı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AraçOtoparkYerleri.resx">
+      <DependentUpon>AraçOtoparkYerleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AraçOtoparkÇıkış.resx">
+      <DependentUpon>AraçOtoparkÇıkış.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMarka.resx">
+      <DependentUpon>frmMarka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMarkaSil.resx">
+      <DependentUpon>FrmMarkaSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeri.resx">
+      <DependentUpon>frmSeri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginEkranı.resx">
+      <DependentUpon>LoginEkranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="otoparkotomasyonuDataSet.xsc">
+      <DependentUpon>otoparkotomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="otoparkotomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>otoparkotomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="otoparkotomasyonuDataSet.xss">
+      <DependentUpon>otoparkotomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

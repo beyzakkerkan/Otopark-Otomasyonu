@@ -1,0 +1,17 @@
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\bin\Debug\otopark_otomasyonu.exe.config
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\bin\Debug\otopark_otomasyonu.exe
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\bin\Debug\otopark_otomasyonu.pdb
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.Properties.Resources.resources
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.csproj.GenerateResource.cache
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.exe
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.pdb
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.AnaSayfa.resources
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.AraçOtoparkKaydı.resources
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.csproj.AssemblyReference.cache
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.frmMarka.resources
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.frmSeri.resources
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.AraçOtoparkYerleri.resources
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.AraçOtoparkÇıkış.resources
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.LoginEkranı.resources
+C:\Users\MONSTER\Desktop\otopark\otopark_otomasyonu\otopark_otomasyonu\obj\Debug\otopark_otomasyonu.FrmMarkaSil.resources
